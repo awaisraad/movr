@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="movr-rides-api" />
+        <module name="movr-vehicle-api" />
+        <module name="movr-user-api" />
+        <module name="movr-api" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="movr-api" target="1.8" />
+      <module name="movr-rides-api" target="1.8" />
+      <module name="movr-user-api" target="1.8" />
+      <module name="movr-vehicle-api" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="movr-api" options="-parameters" />
+      <module name="movr-rides-api" options="-parameters" />
+      <module name="movr-user-api" options="-parameters" />
+      <module name="movr-vehicle-api" options="-parameters" />
+    </option>
+  </component>
+</project>
